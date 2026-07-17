@@ -1,1 +1,243 @@
-/*Archivo de estilos*/
+/* css/styles.css */
+:root {
+    --gradient-bg: linear-gradient(135deg, #0b0e1a 0%, #1a1f2f 100%);
+    --gradient-primary: linear-gradient(145deg, #6c3cff, #a855f7);
+    --gradient-accent: linear-gradient(145deg, #f97316, #ec4899);
+    --glass-bg: rgba(255, 255, 255, 0.06);
+    --glass-border: rgba(255, 255, 255, 0.12);
+    --text-primary: #f0f2fa;
+    --text-secondary: #b0b8d0;
+    --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --spacing: 1.2rem;
+    --radius: 2.2rem;
+    --shadow-glow: 0 12px 40px rgba(108, 60, 255, 0.25);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background: var(--gradient-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.5rem;
+    line-height: 1.5;
+    backdrop-filter: blur(2px);
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    flex: 1;
+    padding: 1rem 0 2rem;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem 2.5rem;
+    background: var(--glass-bg);
+    backdrop-filter: blur(8px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius);
+    margin: 1.2rem 0 2.5rem;
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    max-width: 400px;
+    margin: 0.5rem auto 1.8rem;
+  }
+  
+  .btn-cta {
+    display: inline-block;
+    padding: 0.85rem 2.6rem;
+    background: var(--gradient-accent);
+    border: none;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 8px 24px rgba(249, 115, 22, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s;
+  }
+  
+  .btn-cta:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 32px rgba(249, 115, 22, 0.5);
+  }
+  
+  .product-section {
+    padding: 0.5rem 0;
+  }
+  
+  .filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    padding: 0.5rem 0 1.5rem;
+    justify-content: center;
+  }
+  
+  .filter-btn {
+    padding: 0.5rem 1.4rem;
+    border-radius: 40px;
+    border: 1px solid var(--glass-border);
+    background: var(--glass-bg);
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(4px);
+  }
+  
+  .filter-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--text-primary);
+  }
+  
+  .filter-btn.active {
+    background: var(--gradient-primary);
+    border-color: transparent;
+    color: #fff;
+    box-shadow: 0 4px 16px rgba(108, 60, 255, 0.3);
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.8rem;
+    padding: 1rem 0;
+  }
+  
+  .product-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(6px);
+    border: 1px solid var(--glass-border);
+    border-radius: 2.2rem;
+    padding: 1.6rem 1.2rem;
+    transition: all 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .product-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 16px 40px rgba(108, 60, 255, 0.25);
+  }
+  
+  .product-card .category-badge {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    background: rgba(255, 255, 255, 0.04);
+    padding: 0.2rem 1rem;
+    border-radius: 30px;
+    display: inline-block;
+    align-self: flex-start;
+    border: 1px solid var(--glass-border);
+  }
+  
+  .product-card h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .product-card .price {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #facc15;
+    letter-spacing: 0.5px;
+  }
+  
+  .product-card .marca {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+  }
+  
+  .product-card .description {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  .btn-buy {
+    margin-top: 0.8rem;
+    padding: 0.6rem 1.2rem;
+    background: var(--gradient-primary);
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    color: white;
+    cursor: default;
+    align-self: flex-start;
+    transition: opacity 0.2s;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    letter-spacing: 0.3px;
+  }
+  
+  .btn-buy:hover {
+    opacity: 1;
+  }
+  
+  @media (min-width: 640px) {
+    .product-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .hero h1 {
+      font-size: 3.8rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .product-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.2rem;
+    }
+    .hero {
+      padding: 4.5rem 2rem;
+    }
+    .hero h1 {
+      font-size: 4.8rem;
+    }
+  }
+  
+  iron-header,
+  iron-footer {
+    display: block;
+    width: 100%;
+  }
