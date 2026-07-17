@@ -1,14 +1,35 @@
+<!-- index.html -->
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iron Play · Tienda deportiva</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
-
 <body>
+  <iron-header></iron-header>
 
+  <main>
+    <section class="hero">
+      <h1>🏋️ Iron Play</h1>
+      <p>Equipamiento deportivo con estilo futurista</p>
+      <a href="#productos" class="btn-cta">Explorar</a>
+    </section>
+
+    <section id="productos" class="product-section">
+      <div class="filter-bar">
+        <button class="filter-btn active" data-categoria="todos">Todos</button>
+        <!-- Los botones de filtro se inyectan desde app.js -->
+      </div>
+      <div class="product-grid">
+        <!-- Los productos se inyectan desde app.js -->
+      </div>
+    </section>
+  </main>
+
+  <iron-footer></iron-footer>
+
+  <script type="module" src="js/app.js"></script>
 </body>
-
 </html>
