@@ -1,0 +1,438 @@
+"Json del productos"
+
+{
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Fútbol",
+        "productos": [
+          {
+            "id": 101,
+            "nombre": "Balón Adidas Al Rihla",
+            "marca": "Adidas",
+            "precio": 180000,
+            "stock": 30,
+            "imagen": "img/futbol/balon-adidas-alrihla.jpg"
+          },
+          {
+            "id": 102,
+            "nombre": "Balón Nike Flight",
+            "marca": "Nike",
+            "precio": 190000,
+            "stock": 20,
+            "imagen": "img/futbol/balon-nike-flight.jpg"
+          },
+          {
+            "id": 103,
+            "nombre": "Balón Puma Orbita",
+            "marca": "Puma",
+            "precio": 175000,
+            "stock": 25,
+            "imagen": "img/futbol/balon-puma-orbita.jpg"
+          },
+          {
+            "id": 104,
+            "nombre": "Guayos Adidas Predator",
+            "marca": "Adidas",
+            "precio": 520000,
+            "stock": 15,
+            "imagen": "img/futbol/predator.jpg"
+          },
+          {
+            "id": 105,
+            "nombre": "Guayos Nike Mercurial",
+            "marca": "Nike",
+            "precio": 610000,
+            "stock": 18,
+            "imagen": "img/futbol/mercurial.jpg"
+          },
+          {
+            "id": 106,
+            "nombre": "Guayos Puma Future",
+            "marca": "Puma",
+            "precio": 480000,
+            "stock": 20,
+            "imagen": "img/futbol/future.jpg"
+          },
+          {
+            "id": 107,
+            "nombre": "Canilleras Adidas",
+            "marca": "Adidas",
+            "precio": 85000,
+            "stock": 40,
+            "imagen": "img/futbol/canillera-adidas.jpg"
+          },
+          {
+            "id": 108,
+            "nombre": "Canilleras Nike",
+            "marca": "Nike",
+            "precio": 90000,
+            "stock": 35,
+            "imagen": "img/futbol/canillera-nike.jpg"
+          },
+          {
+            "id": 109,
+            "nombre": "Canilleras Puma",
+            "marca": "Puma",
+            "precio": 80000,
+            "stock": 38,
+            "imagen": "img/futbol/canillera-puma.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Baloncesto",
+        "productos": [
+          {
+            "id": 201,
+            "nombre": "Balón Wilson Evolution",
+            "marca": "Wilson",
+            "precio": 210000,
+            "stock": 25,
+            "imagen": "img/basket/wilson.jpg"
+          },
+          {
+            "id": 202,
+            "nombre": "Balón Spalding TF-1000",
+            "marca": "Spalding",
+            "precio": 225000,
+            "stock": 20,
+            "imagen": "img/basket/spalding.jpg"
+          },
+          {
+            "id": 203,
+            "nombre": "Balón Molten BG4500",
+            "marca": "Molten",
+            "precio": 230000,
+            "stock": 22,
+            "imagen": "img/basket/molten.jpg"
+          },
+          {
+            "id": 204,
+            "nombre": "Tenis Nike LeBron XXI",
+            "marca": "Nike",
+            "precio": 850000,
+            "stock": 12,
+            "imagen": "img/basket/lebron.jpg"
+          },
+          {
+            "id": 205,
+            "nombre": "Tenis Adidas Harden Vol.8",
+            "marca": "Adidas",
+            "precio": 760000,
+            "stock": 15,
+            "imagen": "img/basket/harden.jpg"
+          },
+          {
+            "id": 206,
+            "nombre": "Tenis Under Armour Curry",
+            "marca": "Under Armour",
+            "precio": 790000,
+            "stock": 14,
+            "imagen": "img/basket/curry.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Voleibol",
+        "productos": [
+          {
+            "id": 301,
+            "nombre": "Balón Mikasa V200W",
+            "marca": "Mikasa",
+            "precio": 280000,
+            "stock": 20
+          },
+          {
+            "id": 302,
+            "nombre": "Balón Molten V5M5000",
+            "marca": "Molten",
+            "precio": 260000,
+            "stock": 20
+          },
+          {
+            "id": 303,
+            "nombre": "Balón Wilson AVP",
+            "marca": "Wilson",
+            "precio": 250000,
+            "stock": 15
+          },
+          {
+            "id": 304,
+            "nombre": "Rodilleras Mizuno",
+            "marca": "Mizuno",
+            "precio": 110000,
+            "stock": 30
+          },
+          {
+            "id": 305,
+            "nombre": "Rodilleras Nike",
+            "marca": "Nike",
+            "precio": 105000,
+            "stock": 28
+          },
+          {
+            "id": 306,
+            "nombre": "Rodilleras Adidas",
+            "marca": "Adidas",
+            "precio": 99000,
+            "stock": 32
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "nombre": "Tenis",
+        "productos": [
+          {
+            "id": 401,
+            "nombre": "Raqueta Wilson Blade",
+            "marca": "Wilson"
+          },
+          {
+            "id": 402,
+            "nombre": "Raqueta Babolat Pure Drive",
+            "marca": "Babolat"
+          },
+          {
+            "id": 403,
+            "nombre": "Raqueta Head Speed",
+            "marca": "Head"
+          },
+          {
+            "id": 404,
+            "nombre": "Pelotas Wilson US Open",
+            "marca": "Wilson"
+          },
+          {
+            "id": 405,
+            "nombre": "Pelotas Penn Championship",
+            "marca": "Penn"
+          },
+          {
+            "id": 406,
+            "nombre": "Pelotas Dunlop ATP",
+            "marca": "Dunlop"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Rugby",
+        "productos": [
+          {
+            "id": 501,
+            "nombre": "Balón Gilbert G-TR4000",
+            "marca": "Gilbert"
+          },
+          {
+            "id": 502,
+            "nombre": "Balón Rhino",
+            "marca": "Rhino"
+          },
+          {
+            "id": 503,
+            "nombre": "Balón Adidas Rugby",
+            "marca": "Adidas"
+          },
+          {
+            "id": 504,
+            "nombre": "Botas Canterbury Phoenix",
+            "marca": "Canterbury"
+          },
+          {
+            "id": 505,
+            "nombre": "Botas Adidas Kakari",
+            "marca": "Adidas"
+          },
+          {
+            "id": 506,
+            "nombre": "Botas Gilbert Sidestep",
+            "marca": "Gilbert"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "nombre": "Natación",
+        "productos": [
+          {
+            "id": 601,
+            "nombre": "Gafas Speedo Biofuse",
+            "marca": "Speedo"
+          },
+          {
+            "id": 602,
+            "nombre": "Gafas Arena Cobra",
+            "marca": "Arena"
+          },
+          {
+            "id": 603,
+            "nombre": "Gafas TYR Special Ops",
+            "marca": "TYR"
+          },
+          {
+            "id": 604,
+            "nombre": "Gorro Speedo",
+            "marca": "Speedo"
+          },
+          {
+            "id": 605,
+            "nombre": "Gorro Arena",
+            "marca": "Arena"
+          },
+          {
+            "id": 606,
+            "nombre": "Gorro TYR",
+            "marca": "TYR"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "nombre": "Ciclismo",
+        "productos": [
+          {
+            "id": 701,
+            "nombre": "Casco Giro Register",
+            "marca": "Giro"
+          },
+          {
+            "id": 702,
+            "nombre": "Casco Bell Falcon",
+            "marca": "Bell"
+          },
+          {
+            "id": 703,
+            "nombre": "Casco Specialized Align",
+            "marca": "Specialized"
+          },
+          {
+            "id": 704,
+            "nombre": "Bicicleta Trek Marlin 7",
+            "marca": "Trek"
+          },
+          {
+            "id": 705,
+            "nombre": "Bicicleta Giant Talon",
+            "marca": "Giant"
+          },
+          {
+            "id": 706,
+            "nombre": "Bicicleta Scott Aspect",
+            "marca": "Scott"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "Running",
+        "productos": [
+          {
+            "id": 801,
+            "nombre": "Nike Pegasus 41",
+            "marca": "Nike"
+          },
+          {
+            "id": 802,
+            "nombre": "Adidas Adizero SL",
+            "marca": "Adidas"
+          },
+          {
+            "id": 803,
+            "nombre": "ASICS Gel Nimbus",
+            "marca": "ASICS"
+          },
+          {
+            "id": 804,
+            "nombre": "Camiseta Nike Dri-FIT",
+            "marca": "Nike"
+          },
+          {
+            "id": 805,
+            "nombre": "Camiseta Adidas Run",
+            "marca": "Adidas"
+          },
+          {
+            "id": 806,
+            "nombre": "Camiseta Under Armour HeatGear",
+            "marca": "Under Armour"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "nombre": "Boxeo",
+        "productos": [
+          {
+            "id": 901,
+            "nombre": "Guantes Everlast Elite",
+            "marca": "Everlast"
+          },
+          {
+            "id": 902,
+            "nombre": "Guantes Venum Elite",
+            "marca": "Venum"
+          },
+          {
+            "id": 903,
+            "nombre": "Guantes Adidas Hybrid",
+            "marca": "Adidas"
+          },
+          {
+            "id": 904,
+            "nombre": "Saco Everlast",
+            "marca": "Everlast"
+          },
+          {
+            "id": 905,
+            "nombre": "Saco RDX",
+            "marca": "RDX"
+          },
+          {
+            "id": 906,
+            "nombre": "Saco Century",
+            "marca": "Century"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "nombre": "Tenis de Mesa",
+        "productos": [
+          {
+            "id": 1001,
+            "nombre": "Raqueta Butterfly Timo Boll",
+            "marca": "Butterfly"
+          },
+          {
+            "id": 1002,
+            "nombre": "Raqueta Stiga Pro",
+            "marca": "Stiga"
+          },
+          {
+            "id": 1003,
+            "nombre": "Raqueta Donic Waldner",
+            "marca": "Donic"
+          },
+          {
+            "id": 1004,
+            "nombre": "Mesa Butterfly",
+            "marca": "Butterfly"
+          },
+          {
+            "id": 1005,
+            "nombre": "Mesa Joola",
+            "marca": "Joola"
+          },
+          {
+            "id": 1006,
+            "nombre": "Mesa Stiga",
+            "marca": "Stiga"
+          }
+        ]
+      }
+    ]
+  }
