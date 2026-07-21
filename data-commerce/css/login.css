@@ -1,0 +1,203 @@
+:root {
+    --gradient-bg: linear-gradient(135deg, #0b0e1a 0%, #1a1f2f 100%);
+    --gradient-primary: linear-gradient(145deg, #6c3cff, #a855f7);
+    --gradient-accent: linear-gradient(145deg, #f97316, #ec4899);
+    --glass-bg: rgba(255, 255, 255, 0.06);
+    --glass-border: rgba(255, 255, 255, 0.12);
+    --text-primary: #f0f2fa;
+    --text-secondary: #b0b8d0;
+    --font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    --radius: 2.2rem;
+    --shadow-glow: 0 12px 40px rgba(108, 60, 255, 0.25);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    background: var(--gradient-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    backdrop-filter: blur(2px);
+}
+
+.login-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.login-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius);
+    padding: 2.5rem 2rem;
+    box-shadow: var(--shadow-glow);
+    transition: transform 0.25s ease;
+}
+
+.login-card:hover {
+    transform: translateY(-4px);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo-icon {
+    font-size: 2.8rem;
+    display: block;
+    margin-bottom: 0.2rem;
+}
+
+.login-header h1 {
+    font-size: 2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.login-header p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-top: 0.3rem;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.form-group input {
+    padding: 0.8rem 1rem;
+    border-radius: 40px;
+    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text-primary);
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.25s, box-shadow 0.25s;
+    font-family: var(--font-family);
+}
+
+.form-group input:focus {
+    border-color: #a855f7;
+    box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.25);
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-login {
+    padding: 0.85rem;
+    border: none;
+    border-radius: 60px;
+    background: var(--gradient-accent);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 8px 24px rgba(249, 115, 22, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s;
+    margin-top: 0.4rem;
+    font-family: var(--font-family);
+}
+
+.btn-login:hover {
+    transform: scale(1.02);
+    box-shadow: 0 12px 32px rgba(249, 115, 22, 0.5);
+}
+
+.btn-login:active {
+    transform: scale(0.98);
+}
+
+.error-message {
+    color: #f87171;
+    font-size: 0.9rem;
+    text-align: center;
+    min-height: 1.6rem;
+    margin-top: -0.2rem;
+    padding: 0.2rem 0;
+}
+
+.login-footer {
+    text-align: center;
+    margin-top: 1.8rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.login-footer a {
+    color: #a855f7;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.login-footer a:hover {
+    color: #c084fc;
+    text-decoration: underline;
+}
+
+/* Nuevo estilo para el botón "Volver al inicio" */
+.back-link {
+    margin-top: 0.8rem;
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 0.4rem 1.2rem;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--glass-border);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-back:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: var(--text-primary);
+    text-decoration: none;
+    border-color: rgba(168, 85, 247, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .login-card {
+        padding: 1.8rem 1.2rem;
+    }
+
+    .login-header h1 {
+        font-size: 1.8rem;
+    }
+}
