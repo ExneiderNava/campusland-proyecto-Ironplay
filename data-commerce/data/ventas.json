@@ -1,344 +1,342 @@
-"json de ventas"
-
 {
-    "ventas": [
-      {
-        "id": "V001",
-        "fecha": "2026-07-01T10:15:00",
-        "cliente": "Juan Pérez",
-        "metodoPago": "Tarjeta de Crédito",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 104,
-            "nombre": "Guayos Adidas Predator",
-            "cantidad": 1,
-            "precioUnitario": 520000
-          },
-          {
-            "productoId": 101,
-            "nombre": "Balón Adidas Al Rihla",
-            "cantidad": 1,
-            "precioUnitario": 180000
-          }
-        ],
-        "total": 700000
-      },
-      {
-        "id": "V002",
-        "fecha": "2026-07-01T14:20:00",
-        "cliente": "María Gómez",
-        "metodoPago": "Nequi",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 801,
-            "nombre": "Nike Pegasus 41",
-            "cantidad": 1,
-            "precioUnitario": 620000
-          }
-        ],
-        "total": 620000
-      },
-      {
-        "id": "V003",
-        "fecha": "2026-07-02T09:35:00",
-        "cliente": "Carlos Rodríguez",
-        "metodoPago": "PSE",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 201,
-            "nombre": "Balón Wilson Evolution",
-            "cantidad": 2,
-            "precioUnitario": 210000
-          }
-        ],
-        "total": 420000
-      },
-      {
-        "id": "V004",
-        "fecha": "2026-07-02T17:45:00",
-        "cliente": "Laura Sánchez",
-        "metodoPago": "Efectivo",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 602,
-            "nombre": "Gafas Arena Cobra",
-            "cantidad": 1,
-            "precioUnitario": 150000
-          },
-          {
-            "productoId": 605,
-            "nombre": "Gorro Arena",
-            "cantidad": 2,
-            "precioUnitario": 55000
-          }
-        ],
-        "total": 260000
-      },
-      {
-        "id": "V005",
-        "fecha": "2026-07-03T11:10:00",
-        "cliente": "Andrés Torres",
-        "metodoPago": "Tarjeta Débito",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 204,
-            "nombre": "Tenis Nike LeBron XXI",
-            "cantidad": 1,
-            "precioUnitario": 850000
-          }
-        ],
-        "total": 850000
-      },
-      {
-        "id": "V006",
-        "fecha": "2026-07-04T15:30:00",
-        "cliente": "Sofía Martínez",
-        "metodoPago": "Daviplata",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 401,
-            "nombre": "Raqueta Wilson Blade",
-            "cantidad": 1,
-            "precioUnitario": 980000
-          },
-          {
-            "productoId": 404,
-            "nombre": "Pelotas Wilson US Open",
-            "cantidad": 2,
-            "precioUnitario": 45000
-          }
-        ],
-        "total": 1070000
-      },
-      {
-        "id": "V007",
-        "fecha": "2026-07-05T12:00:00",
-        "cliente": "Daniel Herrera",
-        "metodoPago": "PSE",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 501,
-            "nombre": "Balón Gilbert G-TR4000",
-            "cantidad": 1,
-            "precioUnitario": 240000
-          }
-        ],
-        "total": 240000
-      },
-      {
-        "id": "V008",
-        "fecha": "2026-07-06T09:20:00",
-        "cliente": "Valentina Ruiz",
-        "metodoPago": "Nequi",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 904,
-            "nombre": "Saco Everlast",
-            "cantidad": 1,
-            "precioUnitario": 950000
-          }
-        ],
-        "total": 950000
-      },
-      {
-        "id": "V009",
-        "fecha": "2026-07-07T13:40:00",
-        "cliente": "Miguel Castro",
-        "metodoPago": "Tarjeta Crédito",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 704,
-            "nombre": "Bicicleta Trek Marlin 7",
-            "cantidad": 1,
-            "precioUnitario": 3500000
-          }
-        ],
-        "total": 3500000
-      },
-      {
-        "id": "V010",
-        "fecha": "2026-07-08T18:05:00",
-        "cliente": "Camila Rojas",
-        "metodoPago": "Efectivo",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 304,
-            "nombre": "Rodilleras Mizuno",
-            "cantidad": 2,
-            "precioUnitario": 110000
-          }
-        ],
-        "total": 220000
-      },
-      {
-        "id": "V011",
-        "fecha": "2026-07-09T10:00:00",
-        "cliente": "Felipe Díaz",
-        "metodoPago": "PSE",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 205,
-            "nombre": "Tenis Adidas Harden Vol.8",
-            "cantidad": 1,
-            "precioUnitario": 760000
-          }
-        ],
-        "total": 760000
-      },
-      {
-        "id": "V012",
-        "fecha": "2026-07-09T16:25:00",
-        "cliente": "Natalia López",
-        "metodoPago": "Nequi",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 705,
-            "nombre": "Bicicleta Giant Talon",
-            "cantidad": 1,
-            "precioUnitario": 3100000
-          }
-        ],
-        "total": 3100000
-      },
-      {
-        "id": "V013",
-        "fecha": "2026-07-10T09:45:00",
-        "cliente": "José Ramírez",
-        "metodoPago": "Tarjeta Débito",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 902,
-            "nombre": "Guantes Venum Elite",
-            "cantidad": 1,
-            "precioUnitario": 350000
-          }
-        ],
-        "total": 350000
-      },
-      {
-        "id": "V014",
-        "fecha": "2026-07-10T14:10:00",
-        "cliente": "Paula Medina",
-        "metodoPago": "PSE",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 1002,
-            "nombre": "Raqueta Stiga Pro",
-            "cantidad": 1,
-            "precioUnitario": 420000
-          }
-        ],
-        "total": 420000
-      },
-      {
-        "id": "V015",
-        "fecha": "2026-07-11T11:50:00",
-        "cliente": "Cristian Vega",
-        "metodoPago": "Tarjeta Crédito",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 105,
-            "nombre": "Guayos Nike Mercurial",
-            "cantidad": 1,
-            "precioUnitario": 610000
-          }
-        ],
-        "total": 610000
-      },
-      {
-        "id": "V016",
-        "fecha": "2026-07-12T09:15:00",
-        "cliente": "Luisa Fernández",
-        "metodoPago": "Daviplata",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 803,
-            "nombre": "ASICS Gel Nimbus",
-            "cantidad": 1,
-            "precioUnitario": 690000
-          }
-        ],
-        "total": 690000
-      },
-      {
-        "id": "V017",
-        "fecha": "2026-07-13T13:30:00",
-        "cliente": "Sebastián Ortiz",
-        "metodoPago": "Nequi",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 603,
-            "nombre": "Gafas TYR Special Ops",
-            "cantidad": 2,
-            "precioUnitario": 140000
-          }
-        ],
-        "total": 280000
-      },
-      {
-        "id": "V018",
-        "fecha": "2026-07-14T17:20:00",
-        "cliente": "Ana Jiménez",
-        "metodoPago": "PSE",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 206,
-            "nombre": "Tenis Under Armour Curry",
-            "cantidad": 1,
-            "precioUnitario": 790000
-          }
-        ],
-        "total": 790000
-      },
-      {
-        "id": "V019",
-        "fecha": "2026-07-15T12:40:00",
-        "cliente": "Jorge Navarro",
-        "metodoPago": "Tarjeta Débito",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 506,
-            "nombre": "Botas Gilbert Sidestep",
-            "cantidad": 1,
-            "precioUnitario": 520000
-          }
-        ],
-        "total": 520000
-      },
-      {
-        "id": "V020",
-        "fecha": "2026-07-16T16:30:00",
-        "cliente": "Daniela Moreno",
-        "metodoPago": "Tarjeta Crédito",
-        "estado": "Completada",
-        "productos": [
-          {
-            "productoId": 1005,
-            "nombre": "Mesa Joola",
-            "cantidad": 1,
-            "precioUnitario": 1800000
-          }
-        ],
-        "total": 1800000
-      }
-    ]
-  }
+  "ventas": [
+    {
+      "id": "V001",
+      "fecha": "2026-07-01T10:15:00",
+      "cliente": "Juan Pérez",
+      "metodoPago": "Tarjeta de Crédito",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 104,
+          "nombre": "Guayos Adidas Predator",
+          "cantidad": 1,
+          "precioUnitario": 520000
+        },
+        {
+          "productoId": 101,
+          "nombre": "Balón Adidas Al Rihla",
+          "cantidad": 1,
+          "precioUnitario": 180000
+        }
+      ],
+      "total": 700000
+    },
+    {
+      "id": "V002",
+      "fecha": "2026-07-01T14:20:00",
+      "cliente": "María Gómez",
+      "metodoPago": "Nequi",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 801,
+          "nombre": "Nike Pegasus 41",
+          "cantidad": 1,
+          "precioUnitario": 620000
+        }
+      ],
+      "total": 620000
+    },
+    {
+      "id": "V003",
+      "fecha": "2026-07-02T09:35:00",
+      "cliente": "Carlos Rodríguez",
+      "metodoPago": "PSE",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 201,
+          "nombre": "Balón Wilson Evolution",
+          "cantidad": 2,
+          "precioUnitario": 210000
+        }
+      ],
+      "total": 420000
+    },
+    {
+      "id": "V004",
+      "fecha": "2026-07-02T17:45:00",
+      "cliente": "Laura Sánchez",
+      "metodoPago": "Efectivo",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 602,
+          "nombre": "Gafas Arena Cobra",
+          "cantidad": 1,
+          "precioUnitario": 150000
+        },
+        {
+          "productoId": 605,
+          "nombre": "Gorro Arena",
+          "cantidad": 2,
+          "precioUnitario": 55000
+        }
+      ],
+      "total": 260000
+    },
+    {
+      "id": "V005",
+      "fecha": "2026-07-03T11:10:00",
+      "cliente": "Andrés Torres",
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 204,
+          "nombre": "Tenis Nike LeBron XXI",
+          "cantidad": 1,
+          "precioUnitario": 850000
+        }
+      ],
+      "total": 850000
+    },
+    {
+      "id": "V006",
+      "fecha": "2026-07-04T15:30:00",
+      "cliente": "Sofía Martínez",
+      "metodoPago": "Daviplata",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 401,
+          "nombre": "Raqueta Wilson Blade",
+          "cantidad": 1,
+          "precioUnitario": 980000
+        },
+        {
+          "productoId": 404,
+          "nombre": "Pelotas Wilson US Open",
+          "cantidad": 2,
+          "precioUnitario": 45000
+        }
+      ],
+      "total": 1070000
+    },
+    {
+      "id": "V007",
+      "fecha": "2026-07-05T12:00:00",
+      "cliente": "Daniel Herrera",
+      "metodoPago": "PSE",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 501,
+          "nombre": "Balón Gilbert G-TR4000",
+          "cantidad": 1,
+          "precioUnitario": 240000
+        }
+      ],
+      "total": 240000
+    },
+    {
+      "id": "V008",
+      "fecha": "2026-07-06T09:20:00",
+      "cliente": "Valentina Ruiz",
+      "metodoPago": "Nequi",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 904,
+          "nombre": "Saco Everlast",
+          "cantidad": 1,
+          "precioUnitario": 950000
+        }
+      ],
+      "total": 950000
+    },
+    {
+      "id": "V009",
+      "fecha": "2026-07-07T13:40:00",
+      "cliente": "Miguel Castro",
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 704,
+          "nombre": "Bicicleta Trek Marlin 7",
+          "cantidad": 1,
+          "precioUnitario": 3500000
+        }
+      ],
+      "total": 3500000
+    },
+    {
+      "id": "V010",
+      "fecha": "2026-07-08T18:05:00",
+      "cliente": "Camila Rojas",
+      "metodoPago": "Efectivo",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 304,
+          "nombre": "Rodilleras Mizuno",
+          "cantidad": 2,
+          "precioUnitario": 110000
+        }
+      ],
+      "total": 220000
+    },
+    {
+      "id": "V011",
+      "fecha": "2026-07-09T10:00:00",
+      "cliente": "Felipe Díaz",
+      "metodoPago": "PSE",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 205,
+          "nombre": "Tenis Adidas Harden Vol.8",
+          "cantidad": 1,
+          "precioUnitario": 760000
+        }
+      ],
+      "total": 760000
+    },
+    {
+      "id": "V012",
+      "fecha": "2026-07-09T16:25:00",
+      "cliente": "Natalia López",
+      "metodoPago": "Nequi",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 705,
+          "nombre": "Bicicleta Giant Talon",
+          "cantidad": 1,
+          "precioUnitario": 3100000
+        }
+      ],
+      "total": 3100000
+    },
+    {
+      "id": "V013",
+      "fecha": "2026-07-10T09:45:00",
+      "cliente": "José Ramírez",
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 902,
+          "nombre": "Guantes Venum Elite",
+          "cantidad": 1,
+          "precioUnitario": 350000
+        }
+      ],
+      "total": 350000
+    },
+    {
+      "id": "V014",
+      "fecha": "2026-07-10T14:10:00",
+      "cliente": "Paula Medina",
+      "metodoPago": "PSE",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 1002,
+          "nombre": "Raqueta Stiga Pro",
+          "cantidad": 1,
+          "precioUnitario": 420000
+        }
+      ],
+      "total": 420000
+    },
+    {
+      "id": "V015",
+      "fecha": "2026-07-11T11:50:00",
+      "cliente": "Cristian Vega",
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 105,
+          "nombre": "Guayos Nike Mercurial",
+          "cantidad": 1,
+          "precioUnitario": 610000
+        }
+      ],
+      "total": 610000
+    },
+    {
+      "id": "V016",
+      "fecha": "2026-07-12T09:15:00",
+      "cliente": "Luisa Fernández",
+      "metodoPago": "Daviplata",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 803,
+          "nombre": "ASICS Gel Nimbus",
+          "cantidad": 1,
+          "precioUnitario": 690000
+        }
+      ],
+      "total": 690000
+    },
+    {
+      "id": "V017",
+      "fecha": "2026-07-13T13:30:00",
+      "cliente": "Sebastián Ortiz",
+      "metodoPago": "Nequi",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 603,
+          "nombre": "Gafas TYR Special Ops",
+          "cantidad": 2,
+          "precioUnitario": 140000
+        }
+      ],
+      "total": 280000
+    },
+    {
+      "id": "V018",
+      "fecha": "2026-07-14T17:20:00",
+      "cliente": "Ana Jiménez",
+      "metodoPago": "PSE",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 206,
+          "nombre": "Tenis Under Armour Curry",
+          "cantidad": 1,
+          "precioUnitario": 790000
+        }
+      ],
+      "total": 790000
+    },
+    {
+      "id": "V019",
+      "fecha": "2026-07-15T12:40:00",
+      "cliente": "Jorge Navarro",
+      "metodoPago": "Tarjeta Débito",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 506,
+          "nombre": "Botas Gilbert Sidestep",
+          "cantidad": 1,
+          "precioUnitario": 520000
+        }
+      ],
+      "total": 520000
+    },
+    {
+      "id": "V020",
+      "fecha": "2026-07-16T16:30:00",
+      "cliente": "Daniela Moreno",
+      "metodoPago": "Tarjeta Crédito",
+      "estado": "Completada",
+      "productos": [
+        {
+          "productoId": 1005,
+          "nombre": "Mesa Joola",
+          "cantidad": 1,
+          "precioUnitario": 1800000
+        }
+      ],
+      "total": 1800000
+    }
+  ]
+}

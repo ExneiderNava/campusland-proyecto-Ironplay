@@ -24,7 +24,7 @@ headerTemplate.innerHTML = `
     <nav style="display:flex;align-items:center;gap:1rem;flex-wrap:wrap;">
       <a href="#" style="color:var(--text-secondary, #b0b8d0);text-decoration:none;font-weight:500;font-size:0.95rem;transition:color 0.2s;">Inicio</a>
       <a href="#productos" style="color:var(--text-secondary, #b0b8d0);text-decoration:none;font-weight:500;font-size:0.95rem;transition:color 0.2s;">Productos</a>
-      <a href="admin.html" style="
+      <a href="login.html" style="
         background: var(--gradient-accent, linear-gradient(145deg,#f97316,#ec4899));
         padding: 0.4rem 1.2rem;
         border-radius: 40px;
@@ -35,7 +35,7 @@ headerTemplate.innerHTML = `
         box-shadow: 0 4px 12px rgba(249,115,22,0.3);
         transition: transform 0.1s;
         letter-spacing: 0.3px;
-      ">👤 Admin</a>
+      "a>👤 Admin</a>
     </nav>
   </header>
 `;
@@ -61,7 +61,7 @@ footerTemplate.innerHTML = `
       <span style="background:linear-gradient(145deg,#f97316,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">✦</span>
     </span>
     <br>
-    <span style="opacity:0.5;font-size:0.75rem;">© 2026 · datos desde JSON</span>
+    <span style="opacity:0.5;font-size:0.75rem;">© 2026 · Campus tech</span>
   </footer>
 `;
 
